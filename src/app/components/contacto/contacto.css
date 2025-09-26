@@ -1,0 +1,25 @@
+.page {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #ffb6c1;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff80a0;
+  }
+  
