@@ -10,5 +10,5 @@ export default `<!doctype html>
 <style>:root{--color-primary:#FFD1DC;--color-secondary:#F0E6FF;--color-accent:#FFFACD;--color-text-dark:#36454F;--color-background:#FFFFFF;--font-serif:"Georgia", serif;--font-sans:"Arial", sans-serif}body{background-color:var(--color-background);color:var(--color-text-dark);font-family:var(--font-sans);margin:0;padding:0;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}</style><link rel="stylesheet" href="styles-FQLAVYMY.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-FQLAVYMY.css"></noscript></head>
 <body ngcm="">
   <app-root></app-root>
-<script src="main-BLQQY7V6.js" type="module"></script></body>
+<script src="main-LQQBENKD.js" type="module"></script></body>
 </html>`;
