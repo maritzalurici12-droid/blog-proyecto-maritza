@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/ng%20build%20--base-href=https:/maritzalurici12-droid.github.io/maritzalurici/%20--output-path%20docs": {},
+    "/ng%20build%20--base-href=https:/maritzalurici12-droid.github.io/maritzalurici/%20--output-path%20docs/contacto": {},
+    "/ng%20build%20--base-href=https:/maritzalurici12-droid.github.io/maritzalurici/%20--output-path%20docs/formacion": {},
+    "/ng%20build%20--base-href=https:/maritzalurici12-droid.github.io/maritzalurici/%20--output-path%20docs/sobre-mi": {}
+  }
+}
