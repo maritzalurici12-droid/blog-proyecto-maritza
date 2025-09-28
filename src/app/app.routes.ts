@@ -1,9 +1,10 @@
 import { Routes } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { Sobremi } from './components/sobremi/sobremi';
 import { Formacion } from './components/formacion/formacion';
 import { Contacto } from './components/contacto/contacto'; 
 
-export const routes: Routes = [
+export const appRoutes = [
   
   { path: '', component: Sobremi, title: 'Blog - Sobre Mí' },
 
