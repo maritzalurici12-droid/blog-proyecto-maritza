@@ -1,25 +1,87 @@
-.page {
-    padding: 20px;
-    max-width: 500px;
-    margin: auto;
+
+.contact-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.section-title {
+  color: var(--primary-pastel);
+  margin-bottom: 5px;
+}
+
+.section-subtitle {
+  color: var(--text-dark);
+  margin-bottom: 40px;
+}
+
+.contact-methods {
+  display: flex;
+  gap: 40px;
+  text-align: left;
+}
+
+.contact-form {
+  flex: 2; 
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: var(--text-dark);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Incluye padding en el ancho total */
+}
+
+.submit-button {
+  background-color: var(--primary-pastel); /* Color de fondo pastel */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #9A7BCF; /* Un tono más oscuro de lavanda */
+}
+
+.info-aside {
+  flex: 1; /* Ocupa menos espacio */
+  padding: 30px;
+  background-color: var(--secondary-pastel); /* Fondo pastel de acento */
+  color: var(--text-dark);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.info-aside h2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .contact-methods {
+    flex-direction: column;
   }
-  
-  input, textarea, button {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-  }
-  
-  button {
-    background-color: #ffb6c1;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #ff80a0;
-  }
-  
+}
